@@ -16,5 +16,42 @@
 }
 
 .texto-tres{
+    font-family: "Dune-Rise";
+}
 
+nav ul{
+    list-style: none;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+
+    background-color: orange;
+
+    border: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: heigth 0.5s;
+}
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
 }
